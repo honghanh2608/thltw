@@ -314,7 +314,7 @@ const mapDispatchToProps = dispatch => ({
 })
 
 
-export default withRouter(NavigationBar)
+export default NavigationBar;
 
 const styles = {
     container: {

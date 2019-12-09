@@ -11,7 +11,7 @@ export default class Example extends Component {
         return (
             <Router>
                 <div style={{display: 'flex', flexDirection: 'column', width: '100%', height: '100%'}}>
-                    <NavigationBar/>
+                    
                     <div style={{marginTop: 10, width: '100%'}}>
                         <Route exact path="/" component={HomePage}/>
                         <Route exact path="/Home" component={HomePage}/>
